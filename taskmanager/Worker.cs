@@ -91,7 +91,7 @@ namespace taskmanager
         public bool AcceptReport(Report report)
         {
             Random R = new Random();
-            if (R.Next(0, 10) < 5)
+            if (R.Next(10) < 5)
             {
                 return false;
             }
@@ -129,12 +129,5 @@ namespace taskmanager
             return name + " " + post;
         }
     }
-    class Customer
-    {
-        string name;
-        public Customer(string Name)
-        {
-            name = Name;
-        }
-    }
+   
 }

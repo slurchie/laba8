@@ -17,7 +17,7 @@ namespace methodichka
                 this.sum = sum;
                 time = DateTime.Now;
             }
-            public override string ToString() //переопределяем чтобы было легче использовать при переопределениии
+            public override string ToString() //переопределяем чтобы было легче использовать при объявлении
             {
                 return $"{time} {sum}";
             }

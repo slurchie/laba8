@@ -6,8 +6,10 @@ using System.Threading.Tasks;
 
 namespace taskmanager
 {
+
     class Program
-    { 
+    {
+
         static void Main(string[] args)
         {
             Customer customer = new Customer("Екатерина Владимировка");

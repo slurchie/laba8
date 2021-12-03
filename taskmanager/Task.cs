@@ -8,7 +8,7 @@ namespace taskmanager
 {
     class Task
     {
-        public string status;
+         public string status;
         string description;
         DateTime dueDate;
         Worker leader;
